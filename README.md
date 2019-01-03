@@ -7,7 +7,7 @@
 
 ### Links and Resources
 * [repo](https://github.com/niesssiobhan/08-socket.io)
-* [travis](http://xyz.com)
+* [travis](https://travis-ci.com/niesssiobhan/08-socket.io)
 * [server](https://git.heroku.com/niess-08-lab.git)
 
 ### Modules
@@ -24,7 +24,7 @@ Usage Notes or examples
 
 #### Running the app
 * `npm start`
-* Endpoint: `/foo/bar/`
+* Endpoint: `/`
   * Returns a JSON object with abc in it.
 
 #### Tests
