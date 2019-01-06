@@ -11,23 +11,26 @@
 * [server](https://git.heroku.com/niess-08-lab.git)
 
 ### Modules
-#### `modulename.js`
+#### `app.js`
+#### `logger.js`
+#### `events.js`
+#### `server.js`
 ##### Exported Values and Methods
-
-###### `foo(thing) -> string`
-Usage Notes or examples
-
 
 ### Setup
 #### `.env` requirements
-* `PORT` - Defined by ENV
+* `PORT` - 3000
 
 #### Running the app
-* `npm start`
-* Endpoint: `/`
-  * Returns a JSON object with abc in it.
+* Open one terminal window or tab
+* In that tab/window run the command `server.js`
+* Open up another tab/window
+* In that tab/window run the command `logger.js`
+* Open up a tird tab/window in your terminal
+* In that tab/window run the command `app.js`
 
 #### Tests
 * How do you run tests?
+In you termainal you will run the comman `app.js ./test.txt
 * What assertions were made?
 * What assertions need to be / should be made?
