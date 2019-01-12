@@ -27,10 +27,10 @@
 * Open up another tab/window
 * In that tab/window run the command `logger.js`
 * Open up a tird tab/window in your terminal
-* In that tab/window run the command `app.js`
+* In that tab/window run the command `app.js ./test.txt`
 
 #### Tests
 * How do you run tests?
-In you termainal you will run the comman `app.js ./test.txt
+In you termainal you will run the command 
 * What assertions were made?
 * What assertions need to be / should be made?

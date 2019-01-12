@@ -2,7 +2,14 @@
   "name": "08-socket.io",
   "version": "1.0.0",
   "description": "![CF](http://i.imgur.com/7v5ASc8.png) LAB =================================================",
-  "main": "app.js",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint **/*.js",
+    "test": "jest --verbose --coverage",
+    "test-watch": "jest --watchAll --verbose --coverage"
+  },
   "dependencies": {
     "eslint": "^5.11.1",
     "faker": "^4.1.0",
@@ -13,13 +20,6 @@
     "socket.io": "^2.2.0",
     "socket.io-client": "^2.2.0",
     "util": "^0.11.1"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "start": "node index.js",
-    "lint": "eslint **/*.js",
-    "test": "jest --verbose --coverage",
-    "test-watch": "jest --watchAll --verbose --coverage"
   },
   "repository": {
     "type": "git",
